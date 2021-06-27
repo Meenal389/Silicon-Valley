@@ -271,7 +271,7 @@ function draw() {
     }
 
     //changing to level2
-    if (gameState === "level1" && score1 === 100) {
+    if (gameState === "level1" && score1 === 50) {
       clear()
       gameState = "level2intro"
 
